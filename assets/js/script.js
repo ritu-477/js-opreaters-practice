@@ -66,13 +66,13 @@ if (isR && isS) {
 console.log(1 == 2);
 console.log(1 === "1");
 
-// && opreators
+// && operators
 // && operator will show true only if both values ​​are true.
 let r = false;
 let s = true;
 console.log(r && s);
 
-// or opreators
+// or operators
 // or operator will show true if one value is true, if both value is false then it will show false.
 let rs = false;
 let uv = true;
@@ -94,7 +94,7 @@ let p = true;
 console.log(m - p);
 
 
-// relatiomal/comparison
+// relational/comparison
 let first = '12';
 let second = '15';
 console.log(first < second); 
@@ -116,16 +116,16 @@ console.log(2 != "2");
 console.log(2 != 3);  
  
 // Increment / Decrement
-//Postfx increment 
+//Postfix increment 
 let ab = 1;
 console.log(ab++);    
 console.log(ab);      
-// Postfx decrement
+// Postfix decrement
 let cd = 1;
 console.log(cd--);    
 console.log(cd);     
 
-// Prefx increment
+// Prefix increment
 let sr = 1;
 console.log(++sr);    
 console.log(sr);      
