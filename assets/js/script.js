@@ -51,6 +51,8 @@ let x = 17;
 let y = 16;
 console.log(x < y)
 
+// if else
+//if is used to define its true value and else is used to define its false.
 let isR = true;
 let isS = true;
 
@@ -59,5 +61,86 @@ if (isR && isS) {
 } else {
     console.log("Maybe another day.");
 }
+
+// Equality
+console.log(1 == 2);
+console.log(1 === "1")
+
+// && opreators
+// && operator will show true only if both values ​​are true.
+let r = false;
+let s = true;
+console.log(r && s)
+
+// or opreators
+// or operator will show true if one value is true, if both value is false then it will show false.
+let rs = false;
+let uv = true;
+console.log(rs || uv)
+
+// Conversion
+// Convert to number
+let v = 5;
+let sv = 6;
+console.log(v + sv)
+
+
+// relatiomal/comparison
+let first = '12';
+let second = '15';
+console.log(first < second); 
+console.log(first > second); 
+
+// Greater than or equal to
+console.log(3 >= 2);  
+console.log(4 <= 2);
+
+// Less Than Or Equal To Operator
+console.log(2 <= 5);
+console.log(4 <= 4);  
+console.log(3 <= 2);  
+
+// Not Equal To Operator
+// Not Equal operator will show true value as false and false will make true value.
+console.log(2 != 2);  
+console.log(2 != "2");  
+console.log(2 != 3);  
+ 
+// Increment / Decrement
+//Postfx increment 
+let ab = 1;
+console.log(ab++);    
+console.log(ab);      
+// Postfx decrement
+let cd = 1;
+console.log(cd--);    
+console.log(cd);     
+
+// Prefx increment
+let sr = 1;
+console.log(++sr);    
+console.log(sr);      
+// Decrement
+let ss = 1;
+console.log(--ss);    
+console.log(ss);      
+
+// ......................................Coercion.....................................
+
+// truthy falsy
+const value1 = false;
+const value2 = true;
+let value = value1 + value2;
+console.log(value);
+
+// 
+const value3 = 9;
+const value4 = "5";
+let plus = value3 + value4;
+
+console.log(plus);
+
+
+ 
 
 
