@@ -135,7 +135,6 @@ console.log(--ss);
 console.log(ss);      
 
 // ......................................Coercion.....................................
-
 // truthy falsy
 const value1 = false;
 const value2 = true;
