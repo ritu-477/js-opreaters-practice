@@ -80,9 +80,15 @@ console.log(rs || uv)
 
 // Conversion
 // Convert to number
-let v = 5;
-let sv = 6;
+let v = false;
+let sv = false;
 console.log(v + sv)
+
+let vs = true;
+let vj = false;
+console.log(vs + vj)
+
+// 
 
 
 // relatiomal/comparison
