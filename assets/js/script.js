@@ -44,12 +44,12 @@ console.log(j *= 8);
 // .//or
 const k = undefined;
 const l = 8;
-console.log(k || l)
+console.log(k || l);
 
 // && and
 let x = 17;
 let y = 16;
-console.log(x < y)
+console.log(x < y);
 
 // if else
 //if is used to define its true value and else is used to define its false.
@@ -64,31 +64,34 @@ if (isR && isS) {
 
 // Equality
 console.log(1 == 2);
-console.log(1 === "1")
+console.log(1 === "1");
 
 // && opreators
 // && operator will show true only if both values ​​are true.
 let r = false;
 let s = true;
-console.log(r && s)
+console.log(r && s);
 
 // or opreators
 // or operator will show true if one value is true, if both value is false then it will show false.
 let rs = false;
 let uv = true;
-console.log(rs || uv)
+console.log(rs || uv);
 
 // Conversion
 // Convert to number
 let v = false;
 let sv = false;
-console.log(v + sv)
+console.log(v + sv);
 
 let vs = true;
 let vj = false;
-console.log(vs + vj)
+console.log(vs + vj);
 
-// 
+// Convert to number then negate it
+let m = false;
+let p = true;
+console.log(m - p);
 
 
 // relatiomal/comparison
@@ -143,8 +146,10 @@ console.log(value);
 const value3 = 9;
 const value4 = "5";
 let plus = value3 + value4;
-
 console.log(plus);
+
+
+
 
 
  
